@@ -1,0 +1,46 @@
+
+Sunday    2020-05-03
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+Hassan Ali          hassanali     37  0:03:07  0:24:32  0:36:55  0:00:35  1:05:09  3:18:35  2020-05-03 19:30:21  2020-05-03 22:48:56
+
+Monday    2020-05-04
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+Hassan Ali          hassanali     34  0:00:00  0:24:06  0:14:31  0:03:35  0:42:12 15:44:39  2020-05-04 03:26:30  2020-05-04 19:11:09
+Mubashir Aziz       mubashiraziz      6  0:01:06  0:03:07  0:06:50  0:00:17  0:11:20  6:16:12  2020-05-04 13:03:49  2020-05-04 19:20:01
+Taqi Hashmi         taqihashmi     78  0:46:20  0:45:39  0:19:44  0:02:15  1:53:58  3:43:51  2020-05-04 13:02:54  2020-05-04 16:46:45
+
+Tuesday   2020-05-05
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+Hassan Ali          hassanali      2  0:00:00  0:00:23  0:00:00  0:00:00  0:00:23  3:40:21  2020-05-05 11:25:26  2020-05-05 15:05:47
+Taqi Hashmi         taqihashmi     82  0:10:48  4:03:46  0:33:47  0:01:55  4:50:16  8:42:37  2020-05-05 12:39:33  2020-05-05 21:22:10
+
+Wednesday 2020-05-06
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+Hassan Ali          hassanali      4  0:00:00  0:15:21  0:00:00  0:00:00  0:15:21  6:05:08  2020-05-06 08:20:38  2020-05-06 14:25:46
+Taqi Hashmi         taqihashmi     27  0:02:56  0:13:09  0:13:21  1:03:49  1:33:15  2:58:11  2020-05-06 13:05:28  2020-05-06 16:03:39
+
+Thursday  2020-05-07
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+Taqi Hashmi         taqihashmi     58  1:53:32  0:14:35  0:38:20  0:00:40  2:47:07  4:50:03  2020-05-07 13:14:45  2020-05-07 18:04:48
+
+Friday    2020-05-08
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+Hassan Raza         hassanraza    344  1:25:55  0:36:14  0:41:23  0:20:29  3:04:01  3:39:10  2020-05-08 13:16:39  2020-05-08 16:55:49
+Mosib Sarfaraz      mosibsarfaraz    351  1:12:30  0:03:55  0:39:22  0:27:45  2:23:32  3:16:07  2020-05-08 13:39:22  2020-05-08 16:55:29
+Taqi Hashmi         taqihashmi      2  0:00:00  0:05:16  0:02:58  0:00:00  0:08:14  0:03:23  2020-05-08 13:14:28  2020-05-08 13:17:51
+Usama Khan          usamakhan    436  1:40:38  0:08:50  0:48:53  0:28:59  3:07:20  3:37:07  2020-05-08 13:17:56  2020-05-08 16:55:03
+
+Saturday  2020-05-09
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+Asad Ramzan         asadramzan    315  1:05:52  0:15:26  1:38:32  0:11:47  3:11:37  4:00:44  2020-05-09 12:54:44  2020-05-09 16:55:28
+Hassan Raza         hassanraza    402  1:49:56  0:05:56  2:16:50  0:12:13  4:24:55  5:30:18  2020-05-09 11:26:54  2020-05-09 16:57:12
+Mosib Sarfaraz      mosibsarfaraz    488  2:01:15  0:11:24  2:38:10  0:14:46  5:05:35  6:03:17  2020-05-09 10:59:18  2020-05-09 17:02:35
+Taqi Hashmi         taqihashmi     10  0:00:39  1:15:26  0:02:23  0:00:05  1:18:33  1:53:35  2020-05-09 11:13:53  2020-05-09 13:07:28
+Usama Khan          usamakhan    408  1:42:40  0:04:17  2:28:21  0:16:31  4:31:49  5:38:15  2020-05-09 11:18:37  2020-05-09 16:56:52

@@ -1,0 +1,29 @@
+
+Sunday    2020-04-26
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+
+Monday    2020-04-27
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+
+Tuesday   2020-04-28
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+
+Wednesday 2020-04-29
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+
+Thursday  2020-04-30
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+
+Friday    2020-05-01
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+
+Saturday  2020-05-02
+
+AGENT                USER     CALLS  TALK     PAUSE    WAIT     DISPO    ACTIVE   LOGTIME  FIRST                LAST                    
+Hassan Ali          hassanali     39  0:05:17  0:21:53  0:46:25  0:00:25  1:14:00  1:18:43  2020-05-02 21:02:44  2020-05-02 22:21:27
