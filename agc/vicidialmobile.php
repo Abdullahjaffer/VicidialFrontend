@@ -2791,11 +2791,11 @@ else
 		echo "<title>"._QXZ("Agent web client: Campaign Login")."</title>\n";
 		echo "</head>\n";
         echo "<body onresize=\"browser_dimensions();\"  onload=\"browser_dimensions();\">\n";
-		if ($hide_timeclock_link < 1)
-            {echo "<a href=\"./timeclock.php?referrer=agent&amp;pl=$phone_login&amp;pp=$phone_pass&amp;VD_login=$VD_login&amp;VD_pass=$VD_pass\"> <font class=\"sb_text\">"._QXZ("Timeclock")."</font></a>$grey_link<br />\n";}
-        echo "<table width=\"100%\"><tr><td></td>\n";
-		echo "<!-- INTERNATIONALIZATION-LINKS-PLACEHOLDER-VICIDIAL -->\n";
-        echo "</tr></table>\n";
+		// if ($hide_timeclock_link < 1)
+        //     {echo "<a href=\"./timeclock.php?referrer=agent&amp;pl=$phone_login&amp;pp=$phone_pass&amp;VD_login=$VD_login&amp;VD_pass=$VD_pass\"> <font class=\"sb_text\">"._QXZ("Timeclock")."</font></a>$grey_link<br />\n";}
+        // echo "<table width=\"100%\"><tr><td></td>\n";
+		// echo "<!-- INTERNATIONALIZATION-LINKS-PLACEHOLDER-VICIDIAL -->\n";
+        // echo "</tr></table>\n";
         echo "<form name=\"vicidial_form\" id=\"vicidial_form\" action=\"$agcPAGE\" method=\"post\">\n";
         echo "<input type=\"hidden\" name=\"DB\" value=\"$DB\" />\n";
         echo "<input type=\"hidden\" name=\"JS_browser_height\" id=\"JS_browser_height\" value=\"\" />\n";
@@ -2809,7 +2809,7 @@ else
 		echo "<input type=\"hidden\" name=\"LOGINvarFIVE\" id=\"LOGINvarFIVE\" value=\"$LOGINvarFIVE\" />\n";
 
 
-		echo "<br /><b> <br /><div class='container'><div class='row'><div class='col-md-3'></div><div class='col-md-6'>";
+		echo "<br/><br /><div class='container'><div class='row'><div class='col-md-3'></div><div class='col-md-6'>";
 		echo "<div><b>$VDdisplayMESSAGE</b></div>"
         echo "<table width=\"100%\" cellpadding=\"3\" cellspacing=\"0\" bgcolor=\"#$SSframe_background\"><tr bgcolor=\"white\">";
         echo "<td align=\"left\" valign=\"bottom\" bgcolor=\"#$SSmenu_background\" width=\"170\"><img src=\"$selected_logo\" border=\"0\" height=\"45\" width=\"170\" alt=\"Agent Screen\" /></td>";
@@ -2824,7 +2824,7 @@ else
 		echo "<font class=\"skb_text mb-2 \"><span class='mb-2' id=\"LogiNCamPaigns\">$camp_form_code</span></font>";
         echo "<div class='text-center mt-2'><button class='btn btn-primary mr-2' type='submit' name='submit' value='SUBMIT'>Submit</button>";
         echo "<span id=\"LogiNReseT\"></span></div></div>";
-        echo "</form></div></div><div class='col-md-3'></div></div>\n\n";
+        echo "</div></div><div class='col-md-3'></div></div></form>\n\n";
 		echo "</body>\n\n";
 		echo "</html>\n\n";
 		exit;
