@@ -1252,7 +1252,7 @@ if ($relogin == 'YES')
     echo "<input type=\"hidden\" name=\"LOGINvarTHREE\" id=\"LOGINvarTHREE\" value=\"$LOGINvarTHREE\" />\n";
     echo "<input type=\"hidden\" name=\"LOGINvarFOUR\" id=\"LOGINvarFOUR\" value=\"$LOGINvarFOUR\" />\n";
     echo "<input type=\"hidden\" name=\"LOGINvarFIVE\" id=\"LOGINvarFIVE\" value=\"$LOGINvarFIVE\" />\n";
-    echo "<br /><br /><br /><table width=\"100%\" cellpadding=\"3\" cellspacing=\"0\" bgcolor=\"#$SSframe_background\"><tr bgcolor=\"white\">";
+    echo "<br /><br /><br /><div class='container'><div class='row'><div class='col-md-3'></div><div class='col-md-6'><table width=\"100%\" cellpadding=\"3\" cellspacing=\"0\" bgcolor=\"#$SSframe_background\"><tr bgcolor=\"white\">";
     echo "<td align=\"left\" valign=\"bottom\" bgcolor=\"#$SSmenu_background\" width=\"170\"><img src=\"$selected_logo\" border=\"0\" height=\"45\" width=\"170\" alt=\"Agent Screen\" /></td>";
     echo "<td align=\"center\" valign=\"middle\" bgcolor=\"#$SSmenu_background\"> <font class=\"sh_text_white\">"._QXZ("Login")."</font> </td>";
     echo "</tr>\n";
@@ -1270,7 +1270,7 @@ if ($relogin == 'YES')
     echo "<tr><td align=\"center\" colspan=\"2\"><input type=\"submit\" name=\"SUBMIT\" value=\""._QXZ("SUBMIT")."\" /> &nbsp; \n";
     echo "<span id=\"LogiNReseT\"><input type=\"button\" value=\""._QXZ("Refresh Campaign List")."\" onclick=\"login_allowable_campaigns()\"></span></td></tr>\n";
     echo "<tr><td align=\"left\" colspan=\"2\"><font class=\"body_tiny\"><br />"._QXZ("VERSION:")." $version &nbsp; &nbsp; &nbsp; "._QXZ("BUILD:")." $build</font></td></tr>\n";
-    echo "</table>\n";
+    echo "</table></div><div class='col-md-3'></div></div></div>\n";
     echo "</form>\n\n";
 	echo "</body>\n\n";
 	echo "</html>\n\n";
