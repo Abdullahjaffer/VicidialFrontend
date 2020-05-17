@@ -1261,13 +1261,13 @@ if ($relogin == 'YES')
     echo "</tr>\n";
     echo "<tr><td align=\"left\" colspan=\"2\"><font size=\"1\"> &nbsp; </font></td></tr></table>\n";
 	// echo "<tr><td align=\"right\"><font class=\"skb_text\">"._QXZ("Phone Login:")."</font> </td>";
-    echo "<input class='form-control' placeholder='Phone login' type=\"text\" name=\"phone_login\" size=\"10\" maxlength=\"20\" value=\"$phone_login\" />\n";
+    echo "<div class='p-md-5 p-2'><input class='form-control' placeholder='Phone Login' type=\"text\" name=\"phone_login\" size=\"10\" maxlength=\"20\" value=\"$phone_login\" />\n";
     // echo "<tr><td align=\"right\"><font class=\"skb_text\">"._QXZ("Phone Password:")."</font>  </td>";
-    // echo "<input type=\"password\" name=\"phone_pass\" size=\"10\" maxlength=\"20\" value=\"$phone_pass\" />\n";
+    echo "<input class='form-control' placeholder='Phone Password' type=\"password\" name=\"phone_pass\" size=\"10\" maxlength=\"20\" value=\"$phone_pass\" />\n";
     // echo "<tr><td align=\"right\"><font class=\"skb_text\">"._QXZ("User Login").":</font>  </td>";
-    // echo "<td align=\"left\"><input type=\"text\" name=\"VD_login\" size=\"10\" maxlength=\"20\" value=\"$VD_login\" /></td></tr>\n";
+    echo "<input class='form-control' placeholder='User Login' type=\"text\" name=\"VD_login\" size=\"10\" maxlength=\"20\" value=\"$VD_login\" />\n";
     // echo "<tr><td align=\"right\"><font class=\"skb_text\">"._QXZ("User Password:")."</font>  </td>";
-    // echo "<td align=\"left\"><input type=\"password\" name=\"VD_pass\" size=\"10\" maxlength=\"20\" value=\"$VD_pass\" /></td></tr>\n";
+    echo "<input class='form-control' placeholder='User Password' type=\"password\" name=\"VD_pass\" size=\"10\" maxlength=\"20\" value=\"$VD_pass\" /> </div>";
     // echo "<tr><td align=\"right\" valign=\"top\"><font class=\"skb_text\">"._QXZ("Campaign:")."</font>  </td>";
     // echo "<td align=\"left\"><font class=\"skb_text\"><span id=\"LogiNCamPaigns\">$camp_form_code</span></font></td></tr>\n";
     // echo "<tr><td align=\"center\" colspan=\"2\"><input type=\"submit\" name=\"SUBMIT\" value=\""._QXZ("SUBMIT")."\" /> &nbsp; \n";
