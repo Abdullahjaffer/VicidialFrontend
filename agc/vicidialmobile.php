@@ -1045,9 +1045,9 @@ if ($campaign_login_list > 0)
 			}
 		else
 			{
-			echo "<select size=1 name=VD_campaign id=VD_campaign onFocus=\"login_allowable_campaigns()\">\n";
-			echo "<option value=\"\">-- "._QXZ("USER LOGIN ERROR")." --</option>\n";
-			echo "</select>\n";
+			// echo "<select size=1 name=VD_campaign id=VD_campaign onFocus=\"login_allowable_campaigns()\">\n";
+			// echo "<option value=\"\">-- "._QXZ("USER LOGIN ERROR")." --</option>\n";
+			// echo "</select>\n";
 			}
 		}
 
@@ -1268,11 +1268,11 @@ if ($relogin == 'YES')
     // echo "<tr><td align=\"right\"><font class=\"skb_text\">"._QXZ("User Login").":</font>  </td>";
     echo "<input class='form-control mb-2' placeholder='User Login' type=\"text\" name=\"VD_login\" size=\"10\" maxlength=\"20\" value=\"$VD_login\" />\n";
     // echo "<tr><td align=\"right\"><font class=\"skb_text\">"._QXZ("User Password:")."</font>  </td>";
-    echo "<input class='form-control mb-2' placeholder='User Password' type=\"password\" name=\"VD_pass\" size=\"10\" maxlength=\"20\" value=\"$VD_pass\" /> </div>";
+    echo "<input class='form-control mb-2' placeholder='User Password' type=\"password\" name=\"VD_pass\" size=\"10\" maxlength=\"20\" value=\"$VD_pass\" />";
     // echo "<tr><td align=\"right\" valign=\"top\"><font class=\"skb_text\">"._QXZ("Campaign:")."</font>  </td>";
-    echo "<font class=\"skb_text\"><span id=\"LogiNCamPaigns\">$camp_form_code</span></font>";
+    echo "<font class=\"skb_text\"><span class='mb-2' id=\"LogiNCamPaigns\">$camp_form_code</span></font>";
     echo "<input type=\"submit\" name=\"SUBMIT\" value=\""._QXZ("SUBMIT")."\" />";
-    echo "<span id=\"LogiNReseT\"><input type=\"button\" value=\""._QXZ("Refresh Campaign List")."\" onclick=\"login_allowable_campaigns()\"></span>";
+    echo "<span id=\"LogiNReseT\"><input type=\"button\" value=\""._QXZ("Refresh Campaign List")."\" onclick=\"login_allowable_campaigns()\"></span></div>";
     // echo "<tr><td align=\"left\" colspan=\"2\"><font class=\"body_tiny\"><br />"._QXZ("VERSION:")." $version &nbsp; &nbsp; &nbsp; "._QXZ("BUILD:")." $build</font></td></tr>\n";
     echo "</div><div class='col-md-3'></div></div></div>\n";
     echo "</form>\n\n";
