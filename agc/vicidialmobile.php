@@ -1270,10 +1270,10 @@ if ($relogin == 'YES')
     // echo "<tr><td align=\"right\"><font class=\"skb_text\">"._QXZ("User Password:")."</font>  </td>";
     echo "<input class='form-control mb-2' placeholder='User Password' type=\"password\" name=\"VD_pass\" size=\"10\" maxlength=\"20\" value=\"$VD_pass\" />";
     // echo "<tr><td align=\"right\" valign=\"top\"><font class=\"skb_text\">"._QXZ("Campaign:")."</font>  </td>";
-    echo "<font class=\"skb_text\"><span class='mb-2' id=\"LogiNCamPaigns\">$camp_form_code</span></font>";
+    echo "<font class=\"skb_text\ mb-2"><span class='mb-2' id=\"LogiNCamPaigns\">$camp_form_code</span></font>";
 	// echo "<button type=\"submit\" name=\"SUBMIT\" value=\""._QXZ("SUBMIT")."\" />";
-	echo "<button class='btn btn-primary' type='submit' name='submit' value='SUBMIT'>Submit</button>";
-    echo "<span id=\"LogiNReseT\"><input type=\"button\" value=\""._QXZ("Refresh Campaign List")."\" onclick=\"login_allowable_campaigns()\"></span></div>";
+	echo "<button class='btn btn-primary mr-2' type='submit' name='submit' value='SUBMIT'>Submit</button>";
+    echo "<span id=\"LogiNReseT\"><button class='btn btn-light' type='button' value='Refresh Campaign List' onclick=\"login_allowable_campaigns()\">Refresh Campaign List</button></span></div>";
     // echo "<tr><td align=\"left\" colspan=\"2\"><font class=\"body_tiny\"><br />"._QXZ("VERSION:")." $version &nbsp; &nbsp; &nbsp; "._QXZ("BUILD:")." $build</font></td></tr>\n";
     echo "</div><div class='col-md-3'></div></div></div>\n";
     echo "</form>\n\n";
