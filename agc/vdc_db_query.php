@@ -1229,7 +1229,7 @@ if ($ACTION == 'LogiNCamPaigns')
 	{
 	if ( (strlen($user)<1) )
 		{
-		echo "<select size=1 name=VD_campaign id=VD_campaign>\n";
+		echo "<select class=form-control size=1 name=VD_campaign id=VD_campaign>\n";
 		echo "<option value=\"\">-- ERROR --</option>\n";
 		echo "</select>\n";
 		if ($SSagent_debug_logging > 0) {vicidial_ajax_log($NOW_TIME,$startMS,$link,$ACTION,$php_script,$user,$stage,$lead_id,$session_name,$stmt);}
