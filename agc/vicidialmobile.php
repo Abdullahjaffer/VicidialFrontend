@@ -1200,7 +1200,7 @@ if ($LogiNAJAX > 0)
 					//	alert(logincampaign_query);
 					//	alert(xmlhttp.responseText);
 						document.getElementById("LogiNCamPaigns").innerHTML = Nactiveext;
-						document.getElementById("LogiNReseT").innerHTML = "<input type=\"button\" value=\"<?php echo _QXZ("Refresh Campaign List"); ?>\" onclick=\"login_allowable_campaigns()\" />";
+						document.getElementById("LogiNReseT").innerHTML = "<button class='btn btn-light' type='button' value='Refresh Campaign List' onclick=\"login_allowable_campaigns()\">Refresh Campaign List</button>";
 						document.getElementById("VD_campaign").focus();
 						}
 					}
@@ -1272,6 +1272,7 @@ if ($relogin == 'YES')
     // echo "<tr><td align=\"right\" valign=\"top\"><font class=\"skb_text\">"._QXZ("Campaign:")."</font>  </td>";
     echo "<font class=\"skb_text mb-2 \"><span class='mb-2' id=\"LogiNCamPaigns\">$camp_form_code</span></font>";
 	// echo "<button type=\"submit\" name=\"SUBMIT\" value=\""._QXZ("SUBMIT")."\" />";
+	echo "<button class='btn btn-primary mr-2' type='submit' name='submit' value='SUBMIT'>Submit</button>";
     echo "<span id=\"LogiNReseT\"><button class='btn btn-light' type='button' value='Refresh Campaign List' onclick=\"login_allowable_campaigns()\">Refresh Campaign List</button></span></div>";
     // echo "<tr><td align=\"left\" colspan=\"2\"><font class=\"body_tiny\"><br />"._QXZ("VERSION:")." $version &nbsp; &nbsp; &nbsp; "._QXZ("BUILD:")." $build</font></td></tr>\n";
     echo "</div><div class='col-md-3'></div></div></div>\n";
